@@ -1,16 +1,2 @@
 
-public class Classroom {
 
-    public static void main(String[] args) {
-        Wilder virginie = new Wilder("Idriss");
-        virginie.setAware(true);
-        System.out.println(virginie.whoAmI());
-
-        Wilder jon = new Wilder("Yves");
-        jon.setAware(true);
-        System.out.println(jon.whoAmI());
-
-        Wilder lea = new Wilder("Ethan");
-        System.out.println(lea.whoAmI());
-    }
-}

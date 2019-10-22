@@ -1,2 +1,15 @@
+public class Classroom {
 
+    public static void main(String[] args) {
+        Wilder idriss = new Wilder("Idriss");
+        idriss.setAware(true);
+        System.out.println(idriss.whoAmI());
 
+        Wilder yves = new Wilder("Yves");
+        yves.setAware(true);
+        System.out.println(yves.whoAmI());
+
+        Wilder ethan = new Wilder("Ethan");
+        System.out.println(ethan.whoAmI());
+    }
+}
